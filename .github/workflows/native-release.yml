@@ -18,19 +18,19 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { target: macos-arm64, runner: macos-15 }
-          - { target: macos-x64, runner: macos-15 }
-          - { target: ios-device-arm64, runner: macos-15 }
-          - { target: ios-simulator-arm64, runner: macos-15 }
-          - { target: ios-simulator-x64, runner: macos-15 }
-          - { target: android-arm64, runner: ubuntu-24.04 }
-          - { target: android-arm, runner: ubuntu-24.04 }
-          - { target: android-x64, runner: ubuntu-24.04 }
-          - { target: linux-x64, runner: ubuntu-24.04 }
-          - { target: linux-arm64, runner: ubuntu-24.04-arm }
+          - { target: macos-arm64, runner: macos-26 }
+          - { target: macos-x64, runner: macos-26 }
+          - { target: ios-device-arm64, runner: macos-26 }
+          - { target: ios-simulator-arm64, runner: macos-26 }
+          - { target: ios-simulator-x64, runner: macos-26 }
+          - { target: android-arm64, runner: ubuntu-26.04 }
+          - { target: android-arm, runner: ubuntu-26.04 }
+          - { target: android-x64, runner: ubuntu-26.04 }
+          - { target: linux-x64, runner: ubuntu-26.04 }
+          - { target: linux-arm64, runner: ubuntu-26.04-arm }
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install macOS build tools
         if: runner.os == 'macOS'
@@ -42,7 +42,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y cmake meson nasm ninja-build
 
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: .native-cache
           key: native-${{ matrix.target }}-${{ hashFiles('native/versions.json') }}
@@ -68,7 +68,7 @@ jobs:
             esac
           done
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: native-${{ matrix.target }}
           path: dist/${{ matrix.target }}
@@ -80,7 +80,7 @@ jobs:
       matrix:
         include:
           - target: windows-x64
-            runner: windows-2022
+            runner: windows-2025
             msvc: amd64
             profiles: decode-dav1d encode-aom full-aom-aom full-dav1d-aom
           - target: windows-arm64
@@ -89,7 +89,7 @@ jobs:
             profiles: decode-dav1d
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: ilammy/msvc-dev-cmd@v1
         with:
           arch: ${{ matrix.msvc }}
@@ -110,7 +110,7 @@ jobs:
           New-Item -ItemType Directory -Force $tools | Out-Null
           Invoke-WebRequest https://raw.githubusercontent.com/FFmpeg/gas-preprocessor/ac1836309c2e77023c228b7184485597286289d3/gas-preprocessor.pl -OutFile "$tools\gas-preprocessor.pl"
           "EXTRA_PATH=$tools;C:\Program Files\Git\usr\bin" | Out-File -Append $env:GITHUB_ENV
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: .native-cache
           key: native-${{ matrix.target }}-${{ hashFiles('native/versions.json') }}
@@ -126,7 +126,7 @@ jobs:
         run: |
           Get-ChildItem dist/${{ matrix.target }} -Recurse -Filter avif_native.dll |
             ForEach-Object { dumpbin /DEPENDENTS $_.FullName }
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: native-${{ matrix.target }}
           path: dist/${{ matrix.target }}
@@ -134,10 +134,10 @@ jobs:
 
   release:
     needs: [build-unix, build-windows]
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
         with:
           path: dist
       - name: Build release manifest
@@ -149,7 +149,7 @@ jobs:
           echo "version=$version" >> "$GITHUB_OUTPUT"
           python3 tool/generate_manifest.py \
             "$version" "$GITHUB_REPOSITORY" dist
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         with:
           tag_name: native-v${{ steps.version.outputs.version }}
           files: release/*

@@ -141,6 +141,8 @@ case "$target" in
       -DCMAKE_TOOLCHAIN_FILE="$ndk/build/cmake/android.toolchain.cmake"
       -DANDROID_ABI="$abi"
       -DANDROID_PLATFORM=21
+      # 16 KB page-size alignment required for Android 15+ devices.
+      -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON
     )
     ext=so
     ;;

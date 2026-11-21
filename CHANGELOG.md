@@ -1,3 +1,9 @@
+## 0.3.0
+
+- Add Windows ARM64 (decode-dav1d profile).
+- Update dav1d to 1.5.5 and libaom to 3.15.3; Android libraries support 16 KB pages.
+- Targets without a prebuilt library no longer fail the app build.
+
 ## 0.2.0
 
 - Add `premultiplyAlpha` to `decodeAvif` and `AvifDecoder`. libavif now

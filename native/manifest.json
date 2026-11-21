@@ -1,268 +1,274 @@
 {
-  "nativeVersion": "0.2.0",
+  "nativeVersion": "0.3.0-stashflow.1",
   "artifacts": {
     "android-arm-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm-decode-dav1d-libavif_native.so.gz",
-      "archiveSha256": "48cd9b0655bad364b2417644f4bc8e28dccd286c389550fc7d696e98de0d855d",
-      "librarySha256": "5669675f14412daa01fab41a22f42a6d015fb904728401e6b23105c56f1ff592",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm-decode-dav1d-libavif_native.so.gz",
+      "archiveSha256": "fb22dda7cf19842321a496b0080c220e79b89358fc9b7b4b5aa6857b4444d8b7",
+      "librarySha256": "6f793ef8dfbd0fa1effc8d1e13aa952b3887968170191615290349fffbfcf536",
       "fileName": "libavif_native.so"
     },
     "android-arm-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm-encode-aom-libavif_native.so.gz",
-      "archiveSha256": "5ae86fecb33b06c7e2c58393382c5cc3db1412ecb2656b20d56f9342789029b0",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm-encode-aom-libavif_native.so.gz",
+      "archiveSha256": "8f113da0a85ef64ddb2650be07a6f49192ba9e2e7b5a892382d97ce33bfe931e",
       "librarySha256": "8c2662ddbd3e1a1000d28ec5b8bb6d117435c314d870fd90a164193473c0f482",
       "fileName": "libavif_native.so"
     },
     "android-arm-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm-full-aom-aom-libavif_native.so.gz",
-      "archiveSha256": "5f2af0db5e9e4019e84c17bc3b64518097897a06384dfb9d74cdc6f322fa50da",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm-full-aom-aom-libavif_native.so.gz",
+      "archiveSha256": "547d5f201dcd7a0aa45b8780f4ede497602140990b3fd323106e89e9a8200aaa",
       "librarySha256": "be753f26808666d389fae16a0d33c556358e155e809fd096473c7afb2c182c15",
       "fileName": "libavif_native.so"
     },
     "android-arm-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm-full-dav1d-aom-libavif_native.so.gz",
-      "archiveSha256": "d6be77333492a2f4790fb755c39061259bb83fe50a349d63dd207a3b24c360e1",
-      "librarySha256": "1d55eef2940f4c4a447f7966d178ac8d469ceb73849d75962b12b973a6c614d8",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm-full-dav1d-aom-libavif_native.so.gz",
+      "archiveSha256": "672d8149309d35ba870813c617d8f91fb7bda8e1bc3c0c4f9e81124e603b97aa",
+      "librarySha256": "5514543b003725c372444265883f6087e7759562eb5ab4e11d2a780a8df5bfef",
       "fileName": "libavif_native.so"
     },
     "android-arm64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm64-decode-dav1d-libavif_native.so.gz",
-      "archiveSha256": "5a661228c1e669afb812860461ef2eafc98aa6b860ec3d22b1ceaaab55dd9c68",
-      "librarySha256": "be241c46c0f8fc65b24934a217932ece9ecd817222237e867e1b41434d9a479f",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm64-decode-dav1d-libavif_native.so.gz",
+      "archiveSha256": "3c9cb0c3a7db69c6295d467aaff387463337bbbb6e8af4dce4e123ea01a3b344",
+      "librarySha256": "d1c159d27de27ef4e17147fe49e4567c5fcc2d9fd5e69116b0ec4782b028c276",
       "fileName": "libavif_native.so"
     },
     "android-arm64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm64-encode-aom-libavif_native.so.gz",
-      "archiveSha256": "7ef5fd9c969e8f753595388526b60e5fe0e80ff1d97f786a209846d3c4900855",
-      "librarySha256": "12da0d79981590d50ba65972d8e6e62832ab0feb7d242da0e08128a839552450",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm64-encode-aom-libavif_native.so.gz",
+      "archiveSha256": "3de2aab243f355fdac80fdae6b409a7e9182347d1f951b7d8f0c607294be9fe9",
+      "librarySha256": "d594fba56d6e72e3a045845915742a9be0c1fb3d58e22a6ca70c7aadeccd0500",
       "fileName": "libavif_native.so"
     },
     "android-arm64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm64-full-aom-aom-libavif_native.so.gz",
-      "archiveSha256": "19842bf985e0e9620fa321fdf18cdd5bd4693a0d902c4ec419272fb0c4cbd4b1",
-      "librarySha256": "81b527cf848dbec6d5f39ca94088b6f0d70cdbf16231d24f87619519b73ab434",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm64-full-aom-aom-libavif_native.so.gz",
+      "archiveSha256": "e7869df7ac572f0a9f28dfed644f4418c6dc61c7c3b01700b4994b8c3ec1f3d4",
+      "librarySha256": "92a1362338c7852953618d42d2fd2691c2cbcd3960e9b645d05ff1817a465002",
       "fileName": "libavif_native.so"
     },
     "android-arm64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-arm64-full-dav1d-aom-libavif_native.so.gz",
-      "archiveSha256": "2f9a310910e095d463e0630c84ece2140af04fdfb57af32c4428e861dd6035cf",
-      "librarySha256": "7d1338e4d83f6da9cfcbed28b50abd2539cfa0887a6ade72c9cc55220fca3616",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-arm64-full-dav1d-aom-libavif_native.so.gz",
+      "archiveSha256": "81f37cf0a4a0dc09da37bc0c00231b65e618ddf7db03038412d1ced85fd5f630",
+      "librarySha256": "f7a3f3a2fa9b954f9060c4d9b072019a8ccb7e88c5f307b6dce9ab33d3a8b770",
       "fileName": "libavif_native.so"
     },
     "android-x64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-x64-decode-dav1d-libavif_native.so.gz",
-      "archiveSha256": "992b63a3e19fd30098435371429793345c33fd889f6dfbd56a377e15837754c5",
-      "librarySha256": "5ff09ee8b327667398c806f5346182cd6cd5d4d8ca2f643bd7a69da477e8f82f",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-x64-decode-dav1d-libavif_native.so.gz",
+      "archiveSha256": "a60acfae8a62710400fdbe4324cfa1a08a4f837b6d677b144fc811c32ca42697",
+      "librarySha256": "29c006ad59050f27efe7733712afea9e88f7734cc33fe66931a7002cdec349c9",
       "fileName": "libavif_native.so"
     },
     "android-x64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-x64-encode-aom-libavif_native.so.gz",
-      "archiveSha256": "3a8afb04960c0bfab72f42678a5f685e5fe58347b9a596857eada5f52e45c498",
-      "librarySha256": "ae73ade794ece859a41cb272c48b9d35399ad69a9a2341a85b28e5ebc7cdfcd2",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-x64-encode-aom-libavif_native.so.gz",
+      "archiveSha256": "93c9d0da085f762540fcc457ff2f7db4c620f40dad12026c3d312ccfe4d252fb",
+      "librarySha256": "2544e580438c96670bb34e8fbb3704ac69bd6301fb00bfcb49e6d3d19474438c",
       "fileName": "libavif_native.so"
     },
     "android-x64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-x64-full-aom-aom-libavif_native.so.gz",
-      "archiveSha256": "f6ac5aa5fd9748cbad51f112dd485b83bdcf1c6dbfd0466b5f0c5734244745a9",
-      "librarySha256": "0e08104d5ebaf2e22d3e0e1cd9117146ffd2aba3e4df169b6ac7b6d45c3a3d2c",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-x64-full-aom-aom-libavif_native.so.gz",
+      "archiveSha256": "5844ef47b84a643551e7ec993e1e7e222c267566fb42122d24a2e8eea149edc4",
+      "librarySha256": "3d905643e25089beb1f813b13721a68b3ee9fbbcf47161db72f21021f30e1763",
       "fileName": "libavif_native.so"
     },
     "android-x64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/android-x64-full-dav1d-aom-libavif_native.so.gz",
-      "archiveSha256": "9e6b07bcd10150a1a8ab81fc8fed75ae34f08254c619b99df552ddb1e63012b2",
-      "librarySha256": "e6cd074bf0923021c1952667914d95effc821e112389d074aa4d70e9329d9ddf",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/android-x64-full-dav1d-aom-libavif_native.so.gz",
+      "archiveSha256": "cac7d1fa769dec6a78f069340f1dc35bca518aa2010cb7f10cc0a6889472ed45",
+      "librarySha256": "27769d990e1236c911ac65461f78f7efe7b3615d9d7221ec67e87d88d68b9c2c",
       "fileName": "libavif_native.so"
     },
     "ios-device-arm64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-device-arm64-decode-dav1d-libavif_native.dylib.gz",
-      "archiveSha256": "cc4ae8f8a811a3017e5e529b5800b30642cb5b61432fedbafbcb96d73f419af2",
-      "librarySha256": "daab05d42fa88ddde8aae49d5425e01089efa274951640b3b7c587a75d7d6517",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-device-arm64-decode-dav1d-libavif_native.dylib.gz",
+      "archiveSha256": "c23010e9df1e6fe812d921ff2de7fd043f4994a7f4ea5096c5b6ae211321efe1",
+      "librarySha256": "9c29392591bc933583fb8b5d33ba5cb946d01a5419ec3f4a2d9c76b24332a7b1",
       "fileName": "libavif_native.dylib"
     },
     "ios-device-arm64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-device-arm64-encode-aom-libavif_native.dylib.gz",
-      "archiveSha256": "63f1f085cea0c2439b006a9153d12b25bc7016a80b63b8a4e21d5bc6a4d946f0",
-      "librarySha256": "64acd8e00b82cd23a0e1591edbece7a2cc88a12401b7a306f9b7a10eb6818192",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-device-arm64-encode-aom-libavif_native.dylib.gz",
+      "archiveSha256": "c93555588d985122ac471021571c94289cc0cdf00378c015ca7616fb3044f5bb",
+      "librarySha256": "1a5725a0a082c47bd957705e16edb72d690b2c24f0fa4ead083ceefb0953de22",
       "fileName": "libavif_native.dylib"
     },
     "ios-device-arm64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-device-arm64-full-aom-aom-libavif_native.dylib.gz",
-      "archiveSha256": "e91b079e50d4132f887e0551375b7ec41301484dabb93d8ff6ce7df90e6c0f06",
-      "librarySha256": "2dfa6e94bd8526e44e93c8a841011e7b2985f43ebdc31da1e815022890773f87",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-device-arm64-full-aom-aom-libavif_native.dylib.gz",
+      "archiveSha256": "a225757647bc156f797b38d0e370cec2840a71cde1aa22b4ba9eb3574845a22d",
+      "librarySha256": "b5d8cd60b961e0b052501a3977021b567c8706551c6e35f25e27622b75794beb",
       "fileName": "libavif_native.dylib"
     },
     "ios-device-arm64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-device-arm64-full-dav1d-aom-libavif_native.dylib.gz",
-      "archiveSha256": "82661c0039830ef0b72d1cb98e0cf5fa7d0b9f9392509d9f67410472492b7ee3",
-      "librarySha256": "d4aabaea9fa4fe14fc72589d05f27e280c3e71df661d95c604d41ad3e18d92e3",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-device-arm64-full-dav1d-aom-libavif_native.dylib.gz",
+      "archiveSha256": "c8adcadc5a215242b3c551405935c9400f8602705950c5ac8e1fd0b636d07040",
+      "librarySha256": "35784ea59dd279acef8faaf10f75d78356b078b7e46265f8d51e4dad4bf2e244",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-arm64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-arm64-decode-dav1d-libavif_native.dylib.gz",
-      "archiveSha256": "b3e94276f164e19d98b93afe8712111d2b4a656fbcf6f7fb606c285326a389e1",
-      "librarySha256": "3eb99d5cb3c9d554f69ec19c8be259099122df819ae2b22e69a9b89e94cbb396",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-arm64-decode-dav1d-libavif_native.dylib.gz",
+      "archiveSha256": "26598b606b3dfe6f5909c2c7678ee3720c460e45cc0cd3d1396833ce555dde4a",
+      "librarySha256": "9f2893394b967b29e0be8aec38bb753ae72ddc7f85a4f155479522cf496c79d8",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-arm64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-arm64-encode-aom-libavif_native.dylib.gz",
-      "archiveSha256": "c115280a14f6af6824e2edf855c2b015697bba4bdb96cadc9cb8c8314c0f878b",
-      "librarySha256": "8770a9a1c7a5b7aa4aa207f8dcd130980f0905b9f438573df377c7cb9d2596cc",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-arm64-encode-aom-libavif_native.dylib.gz",
+      "archiveSha256": "f7ab41da1176181b084d360e2b93eb78bbdc7ac4876b4b31f22f7bad1e444958",
+      "librarySha256": "d55630df982c195efa634507a0bee648a2716a70c482c72fa34f522d414e9ea1",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-arm64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-arm64-full-aom-aom-libavif_native.dylib.gz",
-      "archiveSha256": "9cfdbc6390b370273b76b01f3b289ad146f11c6aeee983a3f7a79b7903dc248c",
-      "librarySha256": "0dc45aa719232aae5fa386d31efc8445c549bd29e30c3a91d9aad96e18dfcf66",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-arm64-full-aom-aom-libavif_native.dylib.gz",
+      "archiveSha256": "3f71bf19305783d8a73e3d19ff0f6e71eb091267efdbdeaede7c6e321db307c2",
+      "librarySha256": "264c00e4fd76bc45401dbcb83dabb1bd2640d4af0c971e67a0f755decd696ed9",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-arm64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-arm64-full-dav1d-aom-libavif_native.dylib.gz",
-      "archiveSha256": "5fbec6ea25cd889b6d0f7417d9e1a3d7dcaa6c014b9761f99ecddb4570735a65",
-      "librarySha256": "3b1c2c7b3a1cf8356e9a97d20744e42815771074a5b10128edb7a7b711beb39c",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-arm64-full-dav1d-aom-libavif_native.dylib.gz",
+      "archiveSha256": "28c733003e8c838a1bf41a174173fb625daf479e9499f4992878bebeb18c17c0",
+      "librarySha256": "b366dbcb2b6023eff1468d1e126bdf9ba63b8bbdb6e3464b7c19691b2bc4b16d",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-x64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-x64-decode-dav1d-libavif_native.dylib.gz",
-      "archiveSha256": "a6426343996b93e3b804dc84405c0bf061dc1138b75aa809ca48fd3309f9e844",
-      "librarySha256": "13bde5717dcf3acd566b832a246386ac1a132cf200c982f8011a4ea04cbbfd7e",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-x64-decode-dav1d-libavif_native.dylib.gz",
+      "archiveSha256": "de489f7751065291739ff5a3bc1c51abfe9251539776086970c8507ed0f04f9a",
+      "librarySha256": "5c28e9c3c1a0f8dd6b29b8784708b5c9a615fe8d233f4a4cc040d444fbd939f6",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-x64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-x64-encode-aom-libavif_native.dylib.gz",
-      "archiveSha256": "726593430cace25757833022fbe00c494fdcc83228d7c31b4d0eb326481c7406",
-      "librarySha256": "9749fd216002390613d616871c1350093da2d74dc0564fc464fac6ad873865bb",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-x64-encode-aom-libavif_native.dylib.gz",
+      "archiveSha256": "4c2bdb6faa1e2e105f27aaa16448f54048e1a197890152e039e949028221540c",
+      "librarySha256": "c268e43718265e2962142ed7afb72c3c2da3ac3f240c230e3323d4203e908f05",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-x64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-x64-full-aom-aom-libavif_native.dylib.gz",
-      "archiveSha256": "288157edefbd7023af8b50b6bc39e86513499748c5e4afb36ab444469e350974",
-      "librarySha256": "61c793c6ad0b978f79b1e64b96d12372da07554f851723f499a9f9132ea81cb7",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-x64-full-aom-aom-libavif_native.dylib.gz",
+      "archiveSha256": "90567b9ac743a08bba4fffdb372c10f221414bf2a1efd577716949b089c33c41",
+      "librarySha256": "0f2270115d91ad8aa034fd456fb3d1705aa9217bb4db1fc2eaff94d61bb54acc",
       "fileName": "libavif_native.dylib"
     },
     "ios-simulator-x64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/ios-simulator-x64-full-dav1d-aom-libavif_native.dylib.gz",
-      "archiveSha256": "559ae5c02a7e193b7449a979bb3abf14b2bbcd4bc36b7b75463d7bd0bc70d7a0",
-      "librarySha256": "6eb315235ecffcb93f7710d700ae3954ee192463a1e8c187b52edfbc8ecb2539",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/ios-simulator-x64-full-dav1d-aom-libavif_native.dylib.gz",
+      "archiveSha256": "bbc3f0122dde591a75d142939854cacbf2c2da1edfb36d0aad91d9d2b8eaaa97",
+      "librarySha256": "fe96f2e427b60ea90c02604a6b65a88e94caf8960a15ae2c4071576c74e3ce00",
       "fileName": "libavif_native.dylib"
     },
     "linux-arm64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-arm64-decode-dav1d-libavif_native.so.gz",
-      "archiveSha256": "163487e98b5eee0676be0dc8d3f60b5e0e5b67191a8a0a2abb5c8fad14a3a506",
-      "librarySha256": "22be6556bebe759604dcf56d8d828c5c26652acf1d5868455fe189e0233be0eb",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-arm64-decode-dav1d-libavif_native.so.gz",
+      "archiveSha256": "3ecc41353ea08f8f5cf9cec68abf3363542cf425d877c571934c0d037f12c52b",
+      "librarySha256": "8ec3434a02cf786a684c09564f35267d5d7816686a19806e5cf4650b856de275",
       "fileName": "libavif_native.so"
     },
     "linux-arm64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-arm64-encode-aom-libavif_native.so.gz",
-      "archiveSha256": "887300719bc48787d66e99d3718fbde2dafa7b7526a12c39ca465ee383c79672",
-      "librarySha256": "bb0f849e47b111e71b40f1b57837483882e26fd52f8ea57363904b2ea706ac38",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-arm64-encode-aom-libavif_native.so.gz",
+      "archiveSha256": "2323d1cfbefc87fbb830272be363c4f34ac724d5c9bf8c6930e2f628409e50fc",
+      "librarySha256": "1be2785f98f0c622b06ef74033d4afc2968bc17d4dbf61076c8e3b45f349e62d",
       "fileName": "libavif_native.so"
     },
     "linux-arm64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-arm64-full-aom-aom-libavif_native.so.gz",
-      "archiveSha256": "fb15c0ef55040286fe57dd292ef0e89cac94464e39b52c153bd410f8dfeb8721",
-      "librarySha256": "be8d20694b5f21cc140db829e893b0d7f2802169d9f9e9af89d656340787b937",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-arm64-full-aom-aom-libavif_native.so.gz",
+      "archiveSha256": "ea16e20824c740c8dc0a5c47b7a1ed72896cfe446a42650a7fabd0ccee69fed4",
+      "librarySha256": "3d5c9265ad17e9d72ac8b6660bef32fdb448dff4478ad336e673a3e04b5b7c80",
       "fileName": "libavif_native.so"
     },
     "linux-arm64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-arm64-full-dav1d-aom-libavif_native.so.gz",
-      "archiveSha256": "4c4f3681230ddf14c307686e199fd9bc16b541598455d90b72aac3c299f3040f",
-      "librarySha256": "ef21d7d89fd1814e6fa89e143c49fcb3b8c7f70f0f3d6d51af2d7360b352a288",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-arm64-full-dav1d-aom-libavif_native.so.gz",
+      "archiveSha256": "51edefe45b1e5492588f08f810505b1ee29c91fa76df440cb288c6e055297097",
+      "librarySha256": "2e77bf39e05fdc4c33f916809e95f1eb81939b20c5c8f59bcf64a6d77a6a6f4f",
       "fileName": "libavif_native.so"
     },
     "linux-x64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-x64-decode-dav1d-libavif_native.so.gz",
-      "archiveSha256": "fa36210bc95b70abd14c20fd626204f57d0ef947297e9ff8ee66855c01e2c17f",
-      "librarySha256": "b59254252eb978a253e23105fc2aaf156c017f90c6587eed9edb5554c4d42dc4",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-x64-decode-dav1d-libavif_native.so.gz",
+      "archiveSha256": "266db1743695f728ede48f26db450c7ab3599c539be7fa2826a5353a2bd7fa71",
+      "librarySha256": "754a3d94ebd78fe3fd29293fdc48e7651381bc0e5d1ffeefec869b1f9352e184",
       "fileName": "libavif_native.so"
     },
     "linux-x64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-x64-encode-aom-libavif_native.so.gz",
-      "archiveSha256": "22c655ec67ea4b220edbfb4d2aec0a65066a96b7b2264c1e2ba384d7320bd682",
-      "librarySha256": "e943e3a7b5376a1e7a8132b710876bfb5cabf22d2fe880efd6a6bbbeb86facd2",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-x64-encode-aom-libavif_native.so.gz",
+      "archiveSha256": "0e0bbce7473029f591c406bc48598d99548e968ea25a51b491e39c7bc28280d4",
+      "librarySha256": "e6e9be742985ee426160d4eba86e65cefa2ab34c4cff02460fb62102a3453258",
       "fileName": "libavif_native.so"
     },
     "linux-x64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-x64-full-aom-aom-libavif_native.so.gz",
-      "archiveSha256": "d582ae593d1b92596901d89c6a8477814d6e76114553bde5adea03f25b1122c6",
-      "librarySha256": "99580308b7e75c13056ec79953981b92837699941b2e454e062d484b51f22410",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-x64-full-aom-aom-libavif_native.so.gz",
+      "archiveSha256": "e401a3c0e751da4604b188c7893d7e7d4d64fe104e9393484617e4e0ee8b5d5e",
+      "librarySha256": "a88fce697c1510a168739df79dcd9114cba5a6c2872c69fe81397f0f0309cb98",
       "fileName": "libavif_native.so"
     },
     "linux-x64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/linux-x64-full-dav1d-aom-libavif_native.so.gz",
-      "archiveSha256": "f04298c414f6eefe7e8158239df6df53e7357ece03180f2a86d576cf27524c84",
-      "librarySha256": "5dde15f4b156a6038335a7807cd7b3142a56032d58e77bf88a06e5041a4e16b9",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/linux-x64-full-dav1d-aom-libavif_native.so.gz",
+      "archiveSha256": "1d202cf9e279d616c720e4ad3173262ce51bcd828a997be0dfa1cd7857b888cb",
+      "librarySha256": "5680d50a80c3dba364c2041f5088795e12cd40195774dd9d0b88ab4cb743a26a",
       "fileName": "libavif_native.so"
     },
     "macos-arm64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-arm64-decode-dav1d-libavif_native.dylib.gz",
-      "archiveSha256": "ca60ecf36622c867a75858cd5314507c1ae14858eee63df9767e6f319510726e",
-      "librarySha256": "0e33bdc95c3dc66a493d5c13c4ecc1011d982e260db68fee5abe192dc6cda4fe",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-arm64-decode-dav1d-libavif_native.dylib.gz",
+      "archiveSha256": "e37abdf70738d5c8734ceab446eb86637d4572ab3ab3da15948ca602010797b8",
+      "librarySha256": "abd7c84ffc2bd4dbaf6c8daa50ed7a702002ec59601e3ad3391e658f04a12c66",
       "fileName": "libavif_native.dylib"
     },
     "macos-arm64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-arm64-encode-aom-libavif_native.dylib.gz",
-      "archiveSha256": "d4981551dcb476efba92d532ef366bd90a784679801eb056c37b92033a7a21c8",
-      "librarySha256": "3dac56b0eacc5a9b94c59ec5f6bce671b78046d54835bec16a09626ab0ef8732",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-arm64-encode-aom-libavif_native.dylib.gz",
+      "archiveSha256": "ae2a3156d4919e9c9b30201e5ec21ba4f3b9a24b18de5116ff184418e1a4fb5e",
+      "librarySha256": "e69ae6ebb80b64802825c707f74dcd9397b680cd75c44c482ba4185ce56bea64",
       "fileName": "libavif_native.dylib"
     },
     "macos-arm64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-arm64-full-aom-aom-libavif_native.dylib.gz",
-      "archiveSha256": "67e4db13b87755d25111fd2036e013b096016f39f8c5991dc46e5269e4b1c8ef",
-      "librarySha256": "33fcfd81ab8c26093a753887730d98b689e33d687700d1978936c67c71041588",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-arm64-full-aom-aom-libavif_native.dylib.gz",
+      "archiveSha256": "754efa327d18357f10f9d8482afe0178e45b589a25ed3cb0d2094240d7a39c7b",
+      "librarySha256": "490631ba3b88d6601005c9c1f7e2add08cc8c98b17a2d73b9801c61326ac423f",
       "fileName": "libavif_native.dylib"
     },
     "macos-arm64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-arm64-full-dav1d-aom-libavif_native.dylib.gz",
-      "archiveSha256": "7f12182addef691ac627be9d83fa70c8aeee9b631db2c9491789821155a8d0d9",
-      "librarySha256": "a4d432f03de79c647b1dbc94888d431d196de07de160fa2fd89566782fbe9051",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-arm64-full-dav1d-aom-libavif_native.dylib.gz",
+      "archiveSha256": "50bcc347317a795e7eeda970d10ef540ecb44361ea32c9e14046368bb2960657",
+      "librarySha256": "ea3c3804c0fcf39650dea6b45c2c11fb9097222bc13be4e148ba32533396cadb",
       "fileName": "libavif_native.dylib"
     },
     "macos-x64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-x64-decode-dav1d-libavif_native.dylib.gz",
-      "archiveSha256": "cda505ee5eb3f94f57030f16625b165d0bda81f1757c9e3e72d2050846b89f96",
-      "librarySha256": "46b68e4b4837258a6c25ba2e264976183ffe920344811f6942acd9106ccfced2",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-x64-decode-dav1d-libavif_native.dylib.gz",
+      "archiveSha256": "cf9d7d464c5998c4a83f77a7a40b6d7121463c228ceef7fcb489ea69ba24ce25",
+      "librarySha256": "b1feb0a1ff8815426b8f600aad849f5cdc62de4049d9af1851c87c46edbb5db7",
       "fileName": "libavif_native.dylib"
     },
     "macos-x64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-x64-encode-aom-libavif_native.dylib.gz",
-      "archiveSha256": "8b83f315e12358e366d34a99f1dfef9968161e39eaa810806f23c3913d7da3c8",
-      "librarySha256": "99d00a1599364221a0dbf0438bc77416d27152220a81008b6c1197aaa7f839ff",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-x64-encode-aom-libavif_native.dylib.gz",
+      "archiveSha256": "4be85fd4402ffd0bded782981881a1b1c437db32126e80109fb661d62a182638",
+      "librarySha256": "f4a5ded5ea761a940d1882ec1044135b39ac320222bc601776ca251926ef9927",
       "fileName": "libavif_native.dylib"
     },
     "macos-x64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-x64-full-aom-aom-libavif_native.dylib.gz",
-      "archiveSha256": "540e68965cfb5df07b096cdfcaadff869554b88435186e6163fbd447fff20157",
-      "librarySha256": "ea4538ae661458b21c56c527793235ae71c1e178d017bc67ca35cf0d48f27197",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-x64-full-aom-aom-libavif_native.dylib.gz",
+      "archiveSha256": "3c0f2be5cbc6fa13ec7dcdcda4ee3239bf81ff467cbf608e79eee49ea95e831c",
+      "librarySha256": "fac76c248b666faabcaecd5012ba7deeba5fbd66007a5f4f24efb7f514a07469",
       "fileName": "libavif_native.dylib"
     },
     "macos-x64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/macos-x64-full-dav1d-aom-libavif_native.dylib.gz",
-      "archiveSha256": "73bb56f4ed0e2ae9ba29f93ee8ef60e1a5e26e46ddf445610ffcbbfdcb708fc1",
-      "librarySha256": "092ba1bb3ad762ca29abc9fa84c44dcbb1ded05818af272b5bdd580770d88f2a",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/macos-x64-full-dav1d-aom-libavif_native.dylib.gz",
+      "archiveSha256": "674a703dfb10578054831620b62a3bd770191b4a67ad75cc0cc485acfc37a825",
+      "librarySha256": "8f284cc2844b7cceb8aac6b186990c4a9ee21dd942fb15e3888c226f218aa576",
       "fileName": "libavif_native.dylib"
     },
+    "windows-arm64-decode-dav1d": {
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/windows-arm64-decode-dav1d-avif_native.dll.gz",
+      "archiveSha256": "cb93adbe32deea83ee6fd356a2d4132e9b84fc7daa0eb84127b6b11cf5ee3f5f",
+      "librarySha256": "99f72d68648069c51183edad64cec44e8e3ac9c58a6acac1401abe358d164112",
+      "fileName": "avif_native.dll"
+    },
     "windows-x64-decode-dav1d": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/windows-x64-decode-dav1d-avif_native.dll.gz",
-      "archiveSha256": "d063df7ab3504331ba5f27a84b1c676a2129fae3d37f9e5ea7a928091193ea1c",
-      "librarySha256": "6e3a857e5108ccfc2d4f7e5d24c964b6ff784cccf6cf15fc46866c507b44b630",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/windows-x64-decode-dav1d-avif_native.dll.gz",
+      "archiveSha256": "fc01af7d848a78c03874ee5903645b0c2bca45b29623438988523eeacc2dd089",
+      "librarySha256": "2786c2bd38151559fc892f52e6d8b72906ad4fe85ea9aaffd4b86a72dc369beb",
       "fileName": "avif_native.dll"
     },
     "windows-x64-encode-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/windows-x64-encode-aom-avif_native.dll.gz",
-      "archiveSha256": "5a92e1344b6271d96f818d63569a5d232f92e59162537e26136b2718e4cf21f4",
-      "librarySha256": "fe35b63634324530aa0775e2f5edb2739a9107594fca84dcc29cbe21ecf80290",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/windows-x64-encode-aom-avif_native.dll.gz",
+      "archiveSha256": "b32c1031f6294ad0c80c796a7d00ab595ee107890826bd91782ee03f076ce5c0",
+      "librarySha256": "f8ec542d57c94f9942fdc48839f9910c48e3d9cb62b7ebaa0ea18d05b4db51b7",
       "fileName": "avif_native.dll"
     },
     "windows-x64-full-aom-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/windows-x64-full-aom-aom-avif_native.dll.gz",
-      "archiveSha256": "ed48ea12abc3a8b8dae15a6d139f259503fa7525714858aa2462df820fa663c7",
-      "librarySha256": "fb5e1ee4be189966cac9cd8ce66a69b02be07714da728298852c58f5f2491b2c",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/windows-x64-full-aom-aom-avif_native.dll.gz",
+      "archiveSha256": "9e45c65ea3c04609a8faa8e28ff5f1c604778030bd7d62d43c7db3129fbf9b97",
+      "librarySha256": "4ee02768d959016641ba7b74108696052efc56775e1ef6fe0c38e8fbf7ae83ce",
       "fileName": "avif_native.dll"
     },
     "windows-x64-full-dav1d-aom": {
-      "url": "https://github.com/Zhangw1998/avif_native/releases/download/native-v0.2.0/windows-x64-full-dav1d-aom-avif_native.dll.gz",
-      "archiveSha256": "594e46cb3232ebd7ab37fbf4210c64fc6e834b8465e3705a252f945b32297327",
-      "librarySha256": "195ae6c7e3f56f2a952e4628ccd33f49d5e5042252a2405dfc6bbb9ada48cd1a",
+      "url": "https://github.com/Alchemist-Aloha/avif_native/releases/download/native-v0.3.0-stashflow.1/windows-x64-full-dav1d-aom-avif_native.dll.gz",
+      "archiveSha256": "580325b81f38fcdf7815ac109011ff9aa76069c4c4924d48562f21966ed8948b",
+      "librarySha256": "cb4603e63b304c5b959cf3df4e738caacc2917c81465d8b2a7ad354a88dc2c92",
       "fileName": "avif_native.dll"
     }
   }

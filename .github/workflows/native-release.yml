@@ -75,33 +75,50 @@ jobs:
           if-no-files-found: error
 
   build-windows:
-    runs-on: windows-2022
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: windows-x64
+            runner: windows-2022
+            msvc: amd64
+            profiles: decode-dav1d encode-aom full-aom-aom full-dav1d-aom
+          - target: windows-arm64
+            runner: windows-11-arm
+            msvc: arm64
+            profiles: decode-dav1d
+    runs-on: ${{ matrix.runner }}
     steps:
       - uses: actions/checkout@v4
       - uses: ilammy/msvc-dev-cmd@v1
-      - run: choco install ninja nasm -y
-      - shell: pwsh
-        run: '"C:\Program Files\NASM" | Out-File -Append $env:GITHUB_PATH'
-      - run: pip install meson
+        with:
+          arch: ${{ matrix.msvc }}
+      - name: Install NASM
+        if: matrix.target == 'windows-x64'
+        shell: pwsh
+        run: |
+          choco install nasm -y
+          "C:\Program Files\NASM" | Out-File -Append $env:GITHUB_PATH
+      - run: pip install meson ninja
       - uses: actions/cache@v4
         with:
           path: .native-cache
-          key: native-windows-x64-${{ hashFiles('native/versions.json') }}
+          key: native-${{ matrix.target }}-${{ hashFiles('native/versions.json') }}
       - name: Build profiles
         shell: pwsh
         run: |
-          foreach ($profile in @('decode-dav1d', 'encode-aom', 'full-aom-aom', 'full-dav1d-aom')) {
-            tool/native/build_windows.ps1 windows-x64 $profile
+          foreach ($profile in '${{ matrix.profiles }}'.Split(' ')) {
+            tool/native/build_windows.ps1 ${{ matrix.target }} $profile
           }
       - name: List dependencies
         shell: pwsh
         run: |
-          Get-ChildItem dist/windows-x64 -Recurse -Filter avif_native.dll |
+          Get-ChildItem dist/${{ matrix.target }} -Recurse -Filter avif_native.dll |
             ForEach-Object { dumpbin /DEPENDENTS $_.FullName }
       - uses: actions/upload-artifact@v4
         with:
-          name: native-windows-x64
-          path: dist/windows-x64
+          name: native-${{ matrix.target }}
+          path: dist/${{ matrix.target }}
           if-no-files-found: error
 
   release:

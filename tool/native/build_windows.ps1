@@ -3,7 +3,8 @@ param(
   [Parameter(Mandatory = $true)][string]$Profile
 )
 $ErrorActionPreference = 'Stop'
-if ($Target -ne 'windows-x64') { throw "Unsupported target: $Target" }
+$Arch = @{ 'windows-x64' = 'x64'; 'windows-arm64' = 'ARM64' }[$Target]
+if (-not $Arch) { throw "Unsupported target: $Target" }
 
 $Root = (Resolve-Path "$PSScriptRoot/../..").Path
 $Repo = $Root
@@ -42,7 +43,7 @@ $Dav1dConfig = $Dav1dConfig.Replace(
 [IO.File]::WriteAllText($Dav1dModule, $Dav1dConfig)
 
 Remove-Item -Recurse -Force $Build -ErrorAction SilentlyContinue
-cmake -S "$Root/native" -B $Build -A x64 `
+cmake -S "$Root/native" -B $Build -A $Arch `
   "-DCMAKE_BUILD_TYPE=MinSizeRel" `
   "-DLIBAVIF_SOURCE_DIR=$Sources/libavif" `
   "-DAVIF_PROFILE=$Profile"

@@ -20,6 +20,9 @@ Future<void> main(List<String> args) async {
       encoder: _define(input, 'encoder', 'aom'),
     );
     final target = _target(input.config.code);
+    // Targets without a prebuilt binary ship no library instead of failing
+    // the app build; AVIF calls then throw at runtime on those targets.
+    if (target == null) return;
     final key = '$target-$profile';
     final manifestUri = input.packageRoot.resolve('native/manifest.json');
     output.dependencies.add(manifestUri);
@@ -89,7 +92,7 @@ String _profile({
   return profile;
 }
 
-String _target(CodeConfig code) {
+String? _target(CodeConfig code) {
   final arch = code.targetArchitecture;
   return switch (code.targetOS) {
     OS.macOS when arch == Architecture.arm64 => 'macos-arm64',
@@ -112,9 +115,8 @@ String _target(CodeConfig code) {
     OS.linux when arch == Architecture.arm64 => 'linux-arm64',
     OS.linux when arch == Architecture.x64 => 'linux-x64',
     OS.windows when arch == Architecture.x64 => 'windows-x64',
-    _ => throw UnsupportedError(
-      'avif_native does not support ${code.targetOS} ${arch.name}',
-    ),
+    OS.windows when arch == Architecture.arm64 => 'windows-arm64',
+    _ => null,
   };
 }
 

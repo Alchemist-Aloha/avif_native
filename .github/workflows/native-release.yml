@@ -18,11 +18,11 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - { target: macos-arm64, runner: macos-14 }
-          - { target: macos-x64, runner: macos-14 }
-          - { target: ios-device-arm64, runner: macos-14 }
-          - { target: ios-simulator-arm64, runner: macos-14 }
-          - { target: ios-simulator-x64, runner: macos-14 }
+          - { target: macos-arm64, runner: macos-15 }
+          - { target: macos-x64, runner: macos-15 }
+          - { target: ios-device-arm64, runner: macos-15 }
+          - { target: ios-simulator-arm64, runner: macos-15 }
+          - { target: ios-simulator-x64, runner: macos-15 }
           - { target: android-arm64, runner: ubuntu-24.04 }
           - { target: android-arm, runner: ubuntu-24.04 }
           - { target: android-x64, runner: ubuntu-24.04 }
@@ -100,6 +100,16 @@ jobs:
           choco install nasm -y
           "C:\Program Files\NASM" | Out-File -Append $env:GITHUB_PATH
       - run: pip install meson ninja
+      # dav1d's ARM assembly needs gas-preprocessor under MSVC; Git's Perl
+      # runs it. Appended after MSVC so Git's coreutils cannot shadow link.exe.
+      - name: Install gas-preprocessor
+        if: matrix.target == 'windows-arm64'
+        shell: pwsh
+        run: |
+          $tools = "$env:RUNNER_TEMP\gaspp"
+          New-Item -ItemType Directory -Force $tools | Out-Null
+          Invoke-WebRequest https://raw.githubusercontent.com/FFmpeg/gas-preprocessor/ac1836309c2e77023c228b7184485597286289d3/gas-preprocessor.pl -OutFile "$tools\gas-preprocessor.pl"
+          "EXTRA_PATH=$tools;C:\Program Files\Git\usr\bin" | Out-File -Append $env:GITHUB_ENV
       - uses: actions/cache@v4
         with:
           path: .native-cache
@@ -107,6 +117,7 @@ jobs:
       - name: Build profiles
         shell: pwsh
         run: |
+          if ($env:EXTRA_PATH) { $env:PATH = "$env:PATH;$env:EXTRA_PATH" }
           foreach ($profile in '${{ matrix.profiles }}'.Split(' ')) {
             tool/native/build_windows.ps1 ${{ matrix.target }} $profile
           }

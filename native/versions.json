@@ -5,13 +5,13 @@
     "commit": "c5240fc79fe5c2407e10afd35f5505ef6333ea49"
   },
   "libaom": {
-    "version": "3.14.1",
+    "version": "3.15.3",
     "repository": "https://aomedia.googlesource.com/aom",
-    "commit": "03087864cf4bea6abb0d28f95cf7843511413d8f"
+    "commit": "b141d9c45db236335351c8a4b2a14b3ade27c937"
   },
   "dav1d": {
-    "version": "1.5.3",
+    "version": "1.5.5",
     "repository": "https://code.videolan.org/videolan/dav1d.git",
-    "commit": "b546257f770768b2c88258c533da38b91a06f737"
+    "commit": "6c7bee685677fd997a431302be4fea8ea4017606"
   }
 }
